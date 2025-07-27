@@ -4,13 +4,13 @@ import (
 	"math"
 	"strconv"
 
-	"github.com/shakinm/xlsReader/helpers"
+	"github.com/SebastianOsuna/xlsReader/helpers"
 )
 
 type RKNum [4]byte
 
 func (r *RKNum) number() (intNum int64, floatNum float64, isFloat bool) {
-	// Fix from: https://github.com/shakinm/xlsReader/issues/35
+	// Fix from: https://github.com/SebastianOsuna/xlsReader/issues/35
 	rk := helpers.BytesToUint32(r[:])
 	isFloat = rk&0x02 == 0
 	isMul := rk&0x01 == 1

@@ -1,9 +1,10 @@
 package record
 
 import (
-	"github.com/shakinm/xlsReader/helpers"
-	"github.com/shakinm/xlsReader/xls/structure"
 	"reflect"
+
+	"github.com/SebastianOsuna/xlsReader/helpers"
+	"github.com/SebastianOsuna/xlsReader/xls/structure"
 )
 
 // RK: Cell Value, RK Number

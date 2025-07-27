@@ -2,9 +2,10 @@ package record
 
 import (
 	"encoding/binary"
-	"github.com/shakinm/xlsReader/helpers"
 	"math"
 	"reflect"
+
+	"github.com/SebastianOsuna/xlsReader/helpers"
 
 	"strconv"
 )

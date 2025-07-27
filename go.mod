@@ -1,4 +1,6 @@
-module github.com/shakinm/xlsReader
+module github.com/SebastianOsuna/xlsReader
+
+// origin declaration module github.com/shakinm/xlsReader
 
 require (
 	github.com/metakeule/fmtdate v1.1.2
